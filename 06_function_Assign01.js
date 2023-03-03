@@ -18,13 +18,13 @@ function factorialOfNum(num) {
     return fact;
   }
 }
-console.log(`Factorial  : ${factorialOfNum(5)}`);
-console.log(`Factorial  : ${factorialOfNum(3)}`);
-console.log(`Factorial  : ${factorialOfNum(null)}`);
-console.log(`Factorial  : ${factorialOfNum(8)}`);
-console.log(`Factorial  : ${factorialOfNum(undefined)}`);
-console.log(`Factorial  : ${factorialOfNum(9)}`);
-console.log(`Factorial  : ${factorialOfNum(0)}`);
+console.log(`Factorial of 5  : ${factorialOfNum(5)}`);
+console.log(`Factorial 0f 3 : ${factorialOfNum(3)}`);
+console.log(`Factorial of null : ${factorialOfNum(null)}`);
+console.log(`Factorial of 8 : ${factorialOfNum(8)}`);
+console.log(`Factorial of undefined : ${factorialOfNum(undefined)}`);
+console.log(`Factorial of 9 : ${factorialOfNum(9)}`);
+console.log(`Factorial of 0 : ${factorialOfNum(0)}`);
 console.log(`------------------------------------------------------------------`);
 
 

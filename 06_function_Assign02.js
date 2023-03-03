@@ -13,18 +13,10 @@ function factorialofWordsCount(str) {
   if (str == undefined || str == null) {
     return "Please enter valid input";
   } else {
-    let words = "";
-    for (let i = 0; i < str.length; i++) {
-      if (str.charAt(i) === " ") {
-        continue;
-      }
-      words = words + str.charAt(i);
-    }
-
-    let wordLength = words.length;
-    // return wordLength;
+    let words= str.split(" ");
+    let wordsCount= words.length;
     let fact = 1;
-    for (let i = wordLength; i >= 1; i--) {
+    for (let i= wordsCount; i>=1; i--){
       fact = fact * i;
     }
     return fact;
@@ -32,19 +24,19 @@ function factorialofWordsCount(str) {
 }
 
 console.log(
-  `Factorial of length of Word: ${factorialofWordsCount(
+  `Factorial of length of Word- Revision is the mother of Success: ${factorialofWordsCount(
     "Revision is the mother of Success"
   )}`
 );
 console.log(
-  `Factorial of length of Word: ${factorialofWordsCount(
+  `Factorial of length of Word- We never fail, We always learn: ${factorialofWordsCount(
     "We never fail, We always learn"
   )}`
 );
-console.log(`Factorial of length of Word: ${factorialofWordsCount(null)}`);
-console.log(`Factorial of length of Word: ${factorialofWordsCount("")}`);
+console.log(`Factorial of length of Word- null: ${factorialofWordsCount(null)}`);
+console.log(`Factorial of length of Word : ${factorialofWordsCount("")}`);
 console.log(
-  `Factorial of length of Word: ${factorialofWordsCount("Sushama Patil")}`
+  `Factorial of length of Word- Sushama Patil: ${factorialofWordsCount("Sushama Patil")}`
 );
 console.log(`----------------------------------------------------------------------`);
 
