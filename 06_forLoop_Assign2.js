@@ -15,7 +15,7 @@ var result= function lastWordCharsCount(str){
 console.log(`Total Characters in last word of "JavaScript is the language Of Internet" : ${result("JavaScript is the language Of Internet")}`)
 console.log(`Total Characters in last word "I am Angular Developer": ${result("I am Angular Developer")}`)
 console.log(`Total Characters in last word "Hard work and commitment is the key of success": ${result("Hard work and commitment is the key of success")}`)
-console.log(`-------------------------------------------------------------------------------------------------------`);
+console.log(`------------------------------------------------------------------------------------------------------- `);
 
 // Step 1: Write a function expression to count the total number vowels, Make sure to return the vowels count from 
 // this Function expression and then log given string and vowels count Call the above FE for the below given string.
