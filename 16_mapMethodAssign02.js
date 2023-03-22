@@ -15,17 +15,5 @@ const emp_monika = new Employee(77, "Monika", "IT", 40000, "Wipro");
 const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
-let mapEmployees = new Map();
-mapEmployees.set(22, emp_anil);
-mapEmployees.set(33, emp_radha);
-mapEmployees.set(55, emp_rishi);
-mapEmployees.set(66, emp_sonali);
-mapEmployees.set(77, emp_monika);
-mapEmployees.set(88, emp_viny);
+let mapEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_mahi]
 mapEmployees.set(99, emp_mahi);
-
-mapEmployees.forEach((key, value) =>{
-        console.log( `${value} ===> Name: ${key.emp_name}, Dept: ${key.emp_dept}, Company: ${key.emp_company}, Salary: ${key.emp_salary}`
-        );
-});
-// console.log(empDetails);
