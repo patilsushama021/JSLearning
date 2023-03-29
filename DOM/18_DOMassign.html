@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Exercise time </title>
+    </head>
+    <body>
+        <main>
+            <div id="overview">
+                <h1 id="heading"> HTML and Javascript are crucial technologies </h1>
+                <p> The web would not ork without them...</p>
+            </div>
+            <div id="advantages">
+                <ul>
+                    <li> Flexible </li>
+                    <li class="liSec"> Available </li>
+                    <li> Magical </li>
+                </ul>
+            </div>
+        </main>
+        <script>
+            const maniheading = document.querySelector("#heading");
+            console.log(maniheading.innerHTML);
+
+            const secondAdvantage= document.querySelector(".liSec");
+            console.log(secondAdvantage.innerHTML);
+
+            const advDiv = document.getElementById("advantages")
+            console.log(advDiv.innerHTML);
+
+        </script>
+    </body>
+</html>
